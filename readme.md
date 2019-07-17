@@ -1,6 +1,6 @@
 # fiskaly KassenSichV client for Node.js
 
-The fiskaly KassenSichV client is an HTTP client that is needed<sup>[1](#fn1)</sup> for accessing the [kassensichv.io](https://kassensichv.io) API that implements a cloud-based, virtual **CTSS** (Certified Technical Security System) / **TSE** (Technische Sicherheitseinrichtung) as defined by the German **KassenSichV** ([Kassen­sich­er­ungsver­ord­nung](https://www.bundesfinanzministerium.de/Content/DE/Downloads/Gesetze/2017-10-06-KassenSichV.pdf)).
+The fiskaly KassenSichV client is an HTTP client that is needed<sup>[1](#fn1)</sup> for accessing the [kassensichv.io](https://kassensichv.io) API that implements a cloud-based, virtual **CTSS** (~Certified~ Technical Security System) / **TSE** (Technische Sicherheitseinrichtung) as defined by the German **KassenSichV** ([Kassen­sich­er­ungsver­ord­nung](https://www.bundesfinanzministerium.de/Content/DE/Downloads/Gesetze/2017-10-06-KassenSichV.pdf)).
 
 Conceptually this client is a thin (convenience) wrapper above the [got](https://github.com/sindresorhus/got) HTTP client library for Node.js. 
 This means you will have to look up the [API documentation](https://github.com/sindresorhus/got#api) of got to learn how this client is used. From a developer's point of view, the only difference is that you have to `require('fiskaly-kassensichv-client')` instead of `require('got')`.
