@@ -1,0 +1,26 @@
+{
+  "name": "fiskaly-kassensichv-client",
+  "version": "0.0.1-alpha",
+  "license": "MIT",
+  "homepage": "https://fiskaly.com",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "ava"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "got": "^9.6.0"
+  },
+  "devDependencies": {
+    "@pgaubatz/uuid": "^0.1.0",
+    "ava": "^2.2.0",
+    "dotenv": "^8.0.0",
+    "standard": "^13.0.0"
+  },
+  "files": [
+    "*.js"
+  ]
+}
