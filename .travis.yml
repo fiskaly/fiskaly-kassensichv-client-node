@@ -5,3 +5,7 @@ cache:
 node_js:
   - 'stable'
   - 'lts/*'
+os:
+  - linux
+  - osx
+  - windows
