@@ -12,7 +12,9 @@
   },
   "dependencies": {
     "debug": "^4.1.1",
-    "got": "^9.6.0"
+    "ffi-napi": "^2.4.5",
+    "got": "^9.6.0",
+    "ref-napi": "^1.4.1"
   },
   "devDependencies": {
     "@pgaubatz/uuid": "^0.1.0",
