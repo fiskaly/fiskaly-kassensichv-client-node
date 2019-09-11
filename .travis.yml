@@ -3,7 +3,6 @@ cache:
   directories:
     - ~/.npm
 node_js:
-  - 'stable'
   - 'lts/*'
 os:
   - linux
