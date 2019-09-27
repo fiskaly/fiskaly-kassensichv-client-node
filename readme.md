@@ -12,7 +12,7 @@ This means you will have to look up the [API documentation](https://github.com/s
 - [x] Automatic authentication handling (fetch/refresh JWT and re-authenticate upon 401 errors).
 - [x] Automatic retries on failures (server errors or network timeouts/issues).
 - [x] Automatic JSON parsing and serialization of request and response bodies.
-- [ ] [<a name="fn1">1</a>] compliance regarding [BSI CC-PP-0105-2019](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Zertifizierung/Reporte/ReportePP/pp0105b_pdf.pdf?__blob=publicationFile&v=7) which mandates a locally executed SMA component for creating signed log messages. Note: this SMA component will be bundled within this package as a binary shared library in a future release. Currently it's a dummy JavaScript implementation.
+- [X] [<a name="fn1">1</a>] compliance regarding [BSI CC-PP-0105-2019](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Zertifizierung/Reporte/ReportePP/pp0105b_pdf.pdf?__blob=publicationFile&v=7) which mandates a locally executed SMA component for creating signed log messages.
 - [ ] Automatic offline-handling (collection and documentation according to [Anwendungserlass zu § 146a AO](https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Weitere_Steuerthemen/Abgabenordnung/AO-Anwendungserlass/2019-06-17-einfuehrung-paragraf-146a-AO-anwendungserlass-zu-paragraf-146a-AO.pdf?__blob=publicationFile&v=1))
 
 ## Install
