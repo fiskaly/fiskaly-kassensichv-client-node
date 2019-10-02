@@ -21,7 +21,6 @@ jobs:
         API_KEY: ${{ secrets.API_KEY }}
         API_SECRET: ${{ secrets.API_KEY }}
         CI: true
-        NODE_ENV: development
     - run: npm install node-gyp
     - run: npm install
     - run: npm rebuild
