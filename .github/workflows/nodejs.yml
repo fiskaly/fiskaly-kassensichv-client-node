@@ -28,4 +28,4 @@ jobs:
       env:
         CI: true
         API_KEY: ${{ secrets.API_KEY }}
-        API_SECRET: ${{ secrets.API_KEY }}
+        API_SECRET: ${{ secrets.API_SECRET }}
