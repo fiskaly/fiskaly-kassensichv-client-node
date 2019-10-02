@@ -8,7 +8,7 @@
   },
   "scripts": {
     "lint": "standard",
-    "test": "nyc ava"
+    "test": "nyc --reporter=lcov  --reporter=text-summary ava"
   },
   "dependencies": {
     "debug": "^4.1.1",
