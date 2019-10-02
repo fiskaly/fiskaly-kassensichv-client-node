@@ -25,8 +25,9 @@ jobs:
         npm install
         npm run build --if-present
     - name: npm test
-      run: npm test
       env:
         CI: true
         API_KEY: ${{ secrets.API_KEY }}
         API_SECRET: ${{ secrets.API_SECRET }}
+      run: npm test
+      
