@@ -29,5 +29,5 @@ jobs:
         CI: true
         API_KEY: ${{ secrets.API_KEY }}
         API_SECRET: ${{ secrets.API_SECRET }}
-      run: API_KEY="$secrets.API_KEY" API_SECRET="$secrets.API_SECRET" npm run test
+      run: API_KEY="$API_KEY" API_SECRET="$API_SECRET" npm run test
       
