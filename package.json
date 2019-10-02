@@ -8,18 +8,20 @@
   },
   "scripts": {
     "lint": "standard",
-    "test": "ava"
+    "test": "nyc --reporter=lcov  --reporter=text-summary ava"
   },
   "dependencies": {
     "debug": "^4.1.1",
     "ffi-napi": "^2.4.5",
     "got": "^9.6.0",
+    "node-gyp": "^5.0.4",
     "ref-napi": "^1.4.1"
   },
   "devDependencies": {
     "@pgaubatz/uuid": "^0.1.0",
     "ava": "^2.2.0",
     "dotenv": "^8.0.0",
+    "nyc": "^14.1.1",
     "standard": "^13.0.0"
   },
   "files": [
