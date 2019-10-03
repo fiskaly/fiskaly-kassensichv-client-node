@@ -2,6 +2,10 @@
 
 [![Build Status](https://travis-ci.org/fiskaly/fiskaly-kassensichv-client-node.svg?branch=master)](https://travis-ci.org/fiskaly/fiskaly-kassensichv-client-node)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fiskaly_fiskaly-kassensichv-client-node&metric=alert_status)](https://sonarcloud.io/dashboard?id=fiskaly_fiskaly-kassensichv-client-node)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=fiskaly_fiskaly-kassensichv-client-node&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=fiskaly_fiskaly-kassensichv-client-node)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=fiskaly_fiskaly-kassensichv-client-node&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=fiskaly_fiskaly-kassensichv-client-node)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=fiskaly_fiskaly-kassensichv-client-node&metric=security_rating)](https://sonarcloud.io/dashboard?id=fiskaly_fiskaly-kassensichv-client-node)
+
 
 The fiskaly KassenSichV client is an HTTP client that is needed<sup>[1](#fn1)</sup> for accessing the [kassensichv.io](https://kassensichv.io) API that implements a cloud-based, virtual **CTSS** (~Certified~ Technical Security System) / **TSE** (Technische Sicherheitseinrichtung) as defined by the German **KassenSichV** ([Kassen­sich­er­ungsver­ord­nung](https://www.bundesfinanzministerium.de/Content/DE/Downloads/Gesetze/2017-10-06-KassenSichV.pdf)).
 
