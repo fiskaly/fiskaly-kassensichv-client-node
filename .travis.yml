@@ -6,8 +6,6 @@ node_js:
   - 'lts/*'
 os:
   - linux
-  - osx
-  - windows
 dist: trusty
 addons:
   sonarcloud:
@@ -16,5 +14,6 @@ addons:
       secure: "742lr9eGY9UMIykjRbIK5QMaTREU7eCfJ+Nvt1T5mTPLMPmxFgfwBlMiHorCgVtDpfJTwPeoFONIlu3Tjw3zsS6wSnonZUKGE1dyg4t9FxV7DKAAQA9VQgu5pYpbhIwrSbNJNEVGibCSs1G8RJ7gVk84PfJIoIgflai9JELqOMvuyLclGK7lrGtbHyb3dKnw7Qqh0RPA39ADhLOn1DOLCte4EewOybDmHGqObxZJ116Jw49ZAZhGh/ZQXDcBsu6BxdWQ2L11G2o2XBaoJw9fgGuydemwFWnhS4W1fLgfPUOGvO3GORUnwWajzc2ZnJJ0lWUNO3xAnFNt6+xzidDrr4bKPdLuxZdBGGd66t0n75qhpapxHjzhe56GnzOs050uQihGI/9xmp26eWIa8q9C3b4yDArJ2DJsg099OqV6XEtseTN0MYWV9tN+97T0EKN/4SDuBrC17S2lYctAzUb8eZLlm1Vzb2qdUXG8gxzK7UX4arBcx2lP2xrtzaUPGueyZDVQjhKN0/+jeAutlsWhIpLqec4JtNcCv7sZrxkLwx89N+GfykrUWgP88Ga/XqMPbumedu1Y3mrX/HHDf86A1zbMoAs8Jkar2WR5IvUtdBqsr7OIOoiKghbPuUvxUOiO/9tT+BXmSNAc0Fn7PFdcxTF/VsJttpbmtEmM6J/O/Kw=" # encrypted value of your token
 
 script:
+  - npm run test
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   - sonar-scanner
