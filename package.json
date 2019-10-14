@@ -15,15 +15,16 @@
     "ffi-napi": "^2.4.5",
     "got": "^9.6.0",
     "node-gyp": "^5.0.4",
-    "ref-napi": "^1.4.1",
-    "uuid": "3.3.3"
+    "ref-napi": "^1.4.1"
   },
   "devDependencies": {
     "@pgaubatz/uuid": "^0.1.0",
     "ava": "^2.2.0",
     "dotenv": "^8.0.0",
     "nyc": "^14.1.1",
-    "standard": "^13.0.0"
+    "query-string": "^6.8.3",
+    "standard": "^13.0.0",
+    "uuid": "^3.3.3"
   },
   "files": [
     "*.js"
