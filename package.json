@@ -8,7 +8,7 @@
   },
   "scripts": {
     "lint": "standard",
-    "test": "nyc --reporter=lcov  --reporter=text-summary ava"
+    "test": "nyc --reporter=lcov --reporter=text-summary ava"
   },
   "dependencies": {
     "debug": "^4.1.1",
@@ -22,9 +22,7 @@
     "ava": "^2.2.0",
     "dotenv": "^8.0.0",
     "nyc": "^14.1.1",
-    "query-string": "^6.8.3",
-    "standard": "^13.0.0",
-    "uuid": "^3.3.3"
+    "standard": "^13.0.0"
   },
   "files": [
     "*.js"
